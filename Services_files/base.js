@@ -1,0 +1,4 @@
+(function(){if(typeof Object.create!=='function'){Object.create=(function(){function F(){}
+return function(o){F.prototype=o;return new F();};})();}
+Array.max=function(array){return Math.max.apply(Math,array);};Array.min=function(array){return Math.min.apply(Math,array);};Function.prototype.deferFn=function(){var __method=this,args=Array.prototype.slice.call(arguments,0);return window.setTimeout(function(){return __method.apply(__method,args);},0.01);};if(typeof(window.webs)==='undefined'){window.webs={};}
+webs.showPremiumDialog=function(feature){var popover=new Popover('/s/sitebuilder/requiresPremium?feature='+feature,{heading:'Upgrade Today!',width:800,height:650});popover.show();};})();

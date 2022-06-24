@@ -1,0 +1,1 @@
+define(['jquery','internal/sitebuilder/common/ModuleClassLoader'],function($,ModuleClassLoader){var module={},extend={};extend.styles={};extend.defaultStyle=extend.styles[''];return ModuleClassLoader.register('text',module,extend);});
